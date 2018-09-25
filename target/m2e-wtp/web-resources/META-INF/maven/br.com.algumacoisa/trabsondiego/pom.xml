@@ -19,6 +19,8 @@
   			<configuration>
 					<url>http://localhost:8080/manager/text</url>
 					<server>tomcatserver</server>
+					<username>tomcat</username>
+					<password>122333</password>
 					<path>/trabsondiego</path>
 			</configuration>
   		</plugin>
