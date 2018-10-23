@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="6.18">
 <file name="/home/lincoln/eclipse-workspace/trabsondiego/src/main/java/trabsondiego/Hello.java">
+<error line="6" severity="warning" message="Filho de method def no nível de indentação 4 não está na indentação correcta, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
 </checkstyle>
