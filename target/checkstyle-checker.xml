@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Checkstyle//DTD Check Configuration 1.3//EN" "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<!--
+    This configuration file was written by the eclipse-cs plugin configuration editor
+-->
+<!--
+    Checkstyle-Configuration: eu
+    Description: none
+-->
+<module name="Checker">
+  <property name="severity" value="warning"/>
+  <module name="TreeWalker">
+    <module name="AnnotationLocation"/>
+    <module name="AnnotationUseStyle"/>
+    <module name="AbstractClassName"/>
+    <module name="ClassTypeParameterName"/>
+    <module name="ConstantName"/>
+    <module name="LocalFinalVariableName"/>
+    <module name="LocalVariableName"/>
+    <module name="MemberName"/>
+    <module name="MethodName"/>
+    <module name="MethodTypeParameterName"/>
+    <module name="InterfaceTypeParameterName"/>
+    <module name="PackageName"/>
+    <module name="ParameterName"/>
+    <module name="StaticVariableName"/>
+    <module name="TypeName"/>
+    <module name="AbbreviationAsWordInName"/>
+    <module name="CatchParameterName"/>
+    <module name="DesignForExtension"/>
+    <module name="FinalClass"/>
+    <module name="InnerTypeLast"/>
+    <module name="HideUtilityClassConstructor"/>
+    <module name="InterfaceIsType"/>
+    <module name="MutableException"/>
+    <module name="ThrowsCount"/>
+    <module name="VisibilityModifier"/>
+    <module name="OneTopLevelClass"/>
+    <module name="GenericWhitespace"/>
+    <module name="EmptyForInitializerPad"/>
+    <module name="EmptyForIteratorPad"/>
+    <module name="NoWhitespaceAfter"/>
+    <module name="NoWhitespaceBefore"/>
+    <module name="OperatorWrap"/>
+    <module name="MethodParamPad"/>
+    <module name="ParenPad"/>
+    <module name="TypecastParenPad"/>
+    <module name="WhitespaceAfter"/>
+    <module name="WhitespaceAround"/>
+    <module name="EmptyLineSeparator"/>
+    <module name="SeparatorWrap"/>
+    <module name="NoLineWrap"/>
+    <module name="Indentation"/>
+    <module name="CommentsIndentation"/>
+    <module name="BooleanExpressionComplexity"/>
+    <module name="ClassDataAbstractionCoupling"/>
+    <module name="ClassFanOutComplexity"/>
+    <module name="CyclomaticComplexity"/>
+    <module name="JavaNCSS"/>
+    <module name="NPathComplexity"/>
+  </module>
+  <module name="FileTabCharacter"/>
+  <module name="Header"/>
+  <module name="RegexpHeader"/>
+</module>
